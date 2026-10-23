@@ -1,0 +1,19 @@
+# created-by: streamlit-in-workspaces; skill-version=1.0.0
+definition_version: 2
+entities:
+  streamlit_app:
+    type: streamlit
+    title: WAR_ROOM_SHOWCASE
+    query_warehouse: WAR_ROOM_WH
+    compute_pool: SYSTEM_COMPUTE_POOL_CPU
+    main_file: presentation.py
+    artifacts:
+      - pyproject.toml
+      - presentation.py
+      - .streamlit/config.toml
+      - utils.py
+      - app_pages/architecture.py
+      - app_pages/scoreboard.py
+      - app_pages/risk_history.py
+      - app_pages/two_viewers.py
+      - app_pages/custody.py
